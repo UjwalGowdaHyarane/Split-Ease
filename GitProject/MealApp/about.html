@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="about.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js"></script>
+    <script src="info.js" defer></script>
+
+    <title>MealInfo</title>
+  </head>
+  <body id="about">
+    <nav class="navigation-bar">
+      <form action="" class="input-form">
+        <div class="input-container">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search your meal..."
+            value=""
+          />
+          <i
+            class="fa-solid fa-magnifying-glass search-icon"
+            onclick="fetchMealsList()"
+          ></i>
+        </div>
+        <ul class="categories">
+          <li><a href="index.html">HOME</a></li>
+          <li>Breakfast</li>
+          <li>Lunch</li>
+          <li>Dinner</li>
+          <!-- <li><a href="about.html" target="_blank">landing page</a></li> -->
+        </ul>
+      </form>
+      <button class="favourites">
+        <img id="heart" src="Images/heart-solid.svg" alt="" />
+      </button>
+    </nav>
+
+    <div class="mealInfoContainer">
+      <div class="details">
+        <div class="mealImageContainer">
+          <!-- <img
+            src="Images/AdobeStock_307603787.jpeg"
+            alt=""
+            class="mealImage"
+          /> -->
+        </div>
+        <div class="recepieDetails">
+          <h1 class="title">Food name</h1>
+          <p class="recepie">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+            cumque aut in iure dolor provident dignissimos sit! Voluptates
+            molestias, quidem labore nostrum porro fuga soluta maxime vero
+            inventore animi excepturi! Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Fuga cumque aut in iure dolor provident
+            dignissimos sit! Voluptates molestias, quidem labore nostrum porro
+            fuga soluta maxime vero inventore animi excepturi! Lorem ipsum dolor
+            sit amet consectetur, adipisicing elit. Fuga cumque aut in iure
+            dolor provident dignissimos sit! Voluptates molestias, quidem labore
+            nostrum porro fuga soluta maxime vero inventore animi
+            excepturi!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Fuga cumque aut in iure dolor provident dignissimos sit! Voluptates
+            molestias, quidem labore nostrum porro fuga soluta maxime vero
+            inventore animi excepturi!Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Fuga cumque aut in iure dolor provident
+            dignissimos sit! Voluptates molestias, quidem labore nostrum porro
+            fuga soluta maxime vero inventore animi excepturi!Lorem ipsum dolor
+            sit amet consectetur, adipisicing elit. Fuga cumque aut in iure
+            dolor provident dignissimos sit! Voluptates molestias, quidem labore
+            nostrum porro fuga soluta maxime vero inventore animi excepturi!
+          </p>
+          <video src="https://www.youtube.com/watch?v=C5J39YnnPsg"></video>
+        </div>
+      </div>
+      <div class="ListOfIngredients">
+        <!-- <span class="ingredient">OIL 200ML</span>
+        <span class="ingredient">OIL 200ML</span>
+        <span class="ingredient">OIL 200ML</span>
+        <span class="ingredient">OIL 200ML</span>
+        <span class="ingredient">OIL 200ML</span>
+        <span class="ingredient">OIL 200ML</span>
+        <span class="ingredient">OIL 200ML</span>
+        <span class="ingredient">OIL 200ML</span>
+        <span class="ingredient">OIL 200ML</span>
+        <span class="ingredient">OIL 200ML</span>
+        <span class="ingredient">OIL 200ML</span>
+        <span class="ingredient">OIL 200ML</span> -->
+      </div>
+    </div>
+
+    <!-- <h1 class="title">Hi!!!!</h1>
+    <img src="Images/AdobeStock_307603787.jpeg" alt="" class="mealImg" /> -->
+  </body>
+</html>

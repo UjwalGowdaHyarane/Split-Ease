@@ -1,0 +1,58 @@
+.mealInfoContainer {
+  margin: 60px auto;
+  /* box-shadow: 1px 1px 3px 3px grey; */
+  gap: 100px;
+  padding: 90px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+h1 {
+  font-size: 44px;
+}
+.recepieDetails {
+  width: 60%;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: -30px;
+}
+.recepie {
+  text-align: justify;
+  margin-top: 20px;
+  color: grey;
+  line-height: 1.3;
+}
+.mealImageContainer {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+  border-radius: 60%;
+  overflow: hidden;
+  margin-top: 5px;
+  border: 3px solid rgb(238, 165, 93);
+}
+.mealImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 60%;
+}
+.ListOfIngredients {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.ListOfIngredients span {
+  color: var(--nav-color);
+  font-size: 12px;
+  background: transparent;
+  width: auto;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 700;
+  border: 2px solid rgb(234, 211, 10);
+}
